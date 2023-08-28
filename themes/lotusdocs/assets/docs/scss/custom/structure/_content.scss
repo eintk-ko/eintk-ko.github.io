@@ -67,12 +67,23 @@
     color: var(--text-default);
 }
 
-.docs-content .main-content h1,
-.docs-content .main-content h2,
-.docs-content .main-content h3,
+.docs-content .main-content h1 {
+    font-weight: 600;
+    color: var(--body-color);
+}
+.docs-content .main-content h2 {
+    font-weight: 600;
+    color: var(--body-color);
+}
+
+.docs-content .main-content h3 {
+    font-weight: 600;
+    color: var(--body-color);
+    font-size: 1.5em;
+}
 .docs-content .main-content h4,
 .docs-content .main-content h5 {
-    font-weight: 600;
+    font-weight: 500;
     color: var(--body-color);
 }
 
@@ -103,6 +114,8 @@
         font-weight: 400;
     }
 }
+
+.katex { font-size: 1.0em; }
 
 @media (max-width: 1199px) {
     .docs-content {

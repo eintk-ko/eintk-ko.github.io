@@ -6,25 +6,26 @@
     <description>Recent content on Einstein Toolkit Document</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 22 May 2023 00:44:31 +0100</lastBuildDate><atom:link href="http://eintk-ko.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://eintk-ko.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Quickstart</title>
+      <title>시작하기</title>
       <link>http://eintk-ko.github.io/docs/quickstart/</link>
-      <pubDate>Wed, 03 May 2023 22:37:22 +0100</pubDate>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>http://eintk-ko.github.io/docs/quickstart/</guid>
-      <description>Requirements link git Go ≥ v1.19 Hugo ≥ v0.100.0 (Extended Version) Install Hugo linkInstall the Hugo CLI, using the specific instructions for your operating system below:
-Linux Homebrew (macOS) Windows (Chocolatey) Windows (Scoop) Your Linux distro’s package manager may include Hugo. If this is the case, install it directly using your distro’s package manager – for instance, in Ubuntu, run the following command. This will install the extended edition of Hugo:</description>
+      <description>info 본 문서에서는 Einstein Toolkit을 설치하는 과정에 대해서 다룹니다. 요구사항 link Linux (Ubuntu 20.04 확인됨) Git, Subversion, Curl, Python2/3, GCC, GFortran, MPI Linux가 Minimal 버전일 경우 위의 패키지를 수동으로 설치해주어야 합니다. 앞서 패키지 리스트 최신화를 권장합니다. sudo apt update # 패키지 리스트 업데이트 sudo apt install git sudo apt-get install subversion sudo apt install curl sudo apt install python2/3 sudo apt-get install build-essential sudo apt-get install gfortran sudo apt-get install mpi 다운로드 link설치 경로 확인 linkEinstein Toolkit을 설치할 적절한 디렉토리를 정하여 이동합니다.</description>
     </item>
     
     <item>
-      <title>Code</title>
-      <link>http://eintk-ko.github.io/docs/example-content/code/</link>
-      <pubDate>Mon, 22 May 2023 00:44:31 +0100</pubDate>
+      <title>TwoPunctures</title>
+      <link>http://eintk-ko.github.io/docs/thorns/twopunctures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://eintk-ko.github.io/docs/example-content/code/</guid>
-      <description>Code Block Examples linkCode block language examples
-Go link package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;hello world&amp;#34;) } HTML link &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;My First Heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;My first paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Markdown link # H1 heading **Some bold text** *Italic text example* </description>
+      <guid>http://eintk-ko.github.io/docs/thorns/twopunctures/</guid>
+      <description>개요 linkTwoPunctures는 블랙홀 쌍성 초기 데이터를 구성할 때 많이 쓰이는 thorn입니다. Single domain spectral method를 사용합니다. Phys. Rev. D 70, 064011 (2004)
+두 개의 블랙홀에 대해서만 사용할 수 있지만, 하나의 질량을 $0$으로 설정하여 하나의 블랙홀에 대해서도 사용할 수 있습니다.
+구조 link블랙홀의 위치 link핵심적인 파라미터는 par_b, par_m_plus, par_m_minus, par_P_plus[3], par_P_minus[3], par_S_plus[3], par_S_minus[3], center_offset[3]입니다.
+원본 문서에서 제시하는 파라미터의 설명 중 par_b, center_offset[3]은 설명이 명확하지 않습니다. 각각을 $b$, $c_x$, $c_y$, $c_z$라 할 때, 정확히 이들은 다음과 같이 구성됩니다.</description>
     </item>
     
   </channel>
