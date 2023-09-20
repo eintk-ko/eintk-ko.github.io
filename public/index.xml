@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>ML_BSSN</title>
+      <link>http://eintk-ko.github.io/docs/thorns/mclachlan/ml_bssn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eintk-ko.github.io/docs/thorns/mclachlan/ml_bssn/</guid>
+      <description>개요 linkML_BSSN은 Einstein Toolkit의 대표적인 thorn 중 하나로 BSSN formulation을 이용하여 시공간을 evolution합니다.
+파라미터 linkADMBase 확장 link ADMBase::evolution_method 값 타입 설명 ML_BSSN CCTK_KEYWORD evolution method로 ML_BSSN을 사용합니다. ADMBase::lapse_evolution_method 값 타입 설명 ML_BSSN CCTK_KEYWORD lapse evolution method로 ML_BSSN을 사용합니다. ADMBase::shift_evolution_method 값 타입 설명 ML_BSSN CCTK_KEYWORD shift evolution method로 ML_BSSN을 사용합니다. ADMBase::dtlapse_evolution_method 값 타입 설명 ML_BSSN CCTK_KEYWORD dtlapse evolution method로 ML_BSSN을 사용합니다. ADMBase::dtshift_evolution_method 값 타입 설명 ML_BSSN CCTK_KEYWORD dtshift evolution method로 ML_BSSN을 사용합니다.</description>
+    </item>
+    
+    <item>
       <title>TwoPunctures</title>
       <link>http://eintk-ko.github.io/docs/thorns/twopunctures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

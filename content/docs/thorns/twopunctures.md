@@ -34,6 +34,12 @@ $$
 r \to \infty \Longleftrightarrow A \to 1.
 $$
 
+### 특이점 완화
+`TP_epsilon`, `TP_Tiny`를 각각 $\epsilon$, $r_{\epsilon}$이라 하겠습니다. 어떤 점이 puncture과 떨어진 거리를 $r = \sqrt{(x-x_b)^2 + (y - y_b)^2 + (z - z_b)^2}$이라 할 때, 특이점 근처에서 $\frac{m}{2r}$과 같은 값의 발산을 피하기 위해 다음과 같은 새로운 $\tilde{r}$를 사용합니다.
+$$
+\tilde{r} = \max(r_{\epsilon}, (r^4 + \epsilon^4)^{1/4})
+$$
+
 ### 데이터 타입
 #### derivs
 - `derivs`는 다음과 같이 정의됩니다. 각각에 대한 미분값을 저장하는 것으로 추정됩니다.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thorns 작성 on Einstein Toolkit Document</title>
+    <link>http://eintk-ko.github.io/docs/thorns-writing/</link>
+    <description>Recent content in Thorns 작성 on Einstein Toolkit Document</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 22 May 2023 00:34:57 +0100</lastBuildDate><atom:link href="http://eintk-ko.github.io/docs/thorns-writing/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
